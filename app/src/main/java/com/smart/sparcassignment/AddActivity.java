@@ -22,7 +22,8 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.smart.sparcassignment.Login2.SqlLoginctivity;
+import com.smart.sparcassignment.Login.SqlLoginctivity;
+import com.smart.sparcassignment.Login.SqlRegisterActivity;
 
 import java.util.ArrayList;
 
@@ -193,7 +194,7 @@ public class AddActivity extends AppCompatActivity {
             case R.id.logout:
                 sharedPreferences = getSharedPreferences(PREFERENCE_NAME, Context.MODE_PRIVATE);
 
-                Intent i = new Intent(this, SqlRegisterActivity.class);
+                Intent i = new Intent(this, SqlLoginctivity.class);
                 editor = sharedPreferences.edit();
                 editor.putString(LOGIN, "logout");
                 editor.apply();

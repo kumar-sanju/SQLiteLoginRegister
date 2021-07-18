@@ -1,4 +1,4 @@
-package com.smart.sparcassignment.Login2;
+package com.smart.sparcassignment.Login;
 
 public class Data {
 

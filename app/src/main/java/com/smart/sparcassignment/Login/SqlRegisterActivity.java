@@ -1,4 +1,4 @@
-package com.smart.sparcassignment;
+package com.smart.sparcassignment.Login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,9 +12,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.smart.sparcassignment.Login2.Data;
-import com.smart.sparcassignment.Login2.DatabaseHelper;
-import com.smart.sparcassignment.Login2.SqlLoginctivity;
+import com.smart.sparcassignment.AddActivity;
+import com.smart.sparcassignment.R;
 
 import static com.smart.sparcassignment.Key.LOGIN;
 import static com.smart.sparcassignment.Key.PREFERENCE_NAME;
@@ -75,5 +74,10 @@ public class SqlRegisterActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }

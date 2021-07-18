@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFBEEE"
-    tools:context=".Login2.SqlLoginctivity">
+    tools:context=".Login.SqlLoginctivity">
 
     <LinearLayout
         android:layout_width="match_parent"

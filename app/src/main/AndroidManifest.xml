@@ -11,28 +11,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SqlRegisterActivity">
+        <activity android:name="com.smart.sparcassignment.Login.SqlRegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login2.SqlLoginctivity">
+        <activity android:name="com.smart.sparcassignment.Login.SqlLoginctivity">
 
         </activity>
-        <activity android:name=".Login1.HomeActivity" />
-        <activity android:name=".Login1.RegisterActivity" />
-        <activity android:name=".Login1.LoginActivity" />
-        <activity android:name=".Login1.MainActivity" />
         <activity android:name=".AddActivity">
-
-            <!-- <intent-filter> -->
-            <!-- <action android:name="android.intent.action.MAIN" /> -->
-
-
-            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
-            <!-- </intent-filter> -->
         </activity>
     </application>
 

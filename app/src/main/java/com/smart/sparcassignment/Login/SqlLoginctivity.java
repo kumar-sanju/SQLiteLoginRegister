@@ -1,26 +1,14 @@
-package com.smart.sparcassignment.Login2;
+package com.smart.sparcassignment.Login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import com.smart.sparcassignment.AddActivity;
-import com.smart.sparcassignment.Login1.LoginActivity;
-import com.smart.sparcassignment.Login1.MainActivity;
 import com.smart.sparcassignment.R;
-import com.smart.sparcassignment.SqlRegisterActivity;
-
-import static com.smart.sparcassignment.Key.LOGIN;
-import static com.smart.sparcassignment.Key.PREFERENCE_NAME;
 
 public class SqlLoginctivity extends AppCompatActivity {
 

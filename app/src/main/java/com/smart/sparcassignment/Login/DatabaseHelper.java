@@ -1,4 +1,4 @@
-package com.smart.sparcassignment.Login2;
+package com.smart.sparcassignment.Login;
 
 import android.app.Activity;
 import android.content.ContentValues;
@@ -14,9 +14,6 @@ import android.widget.Toast;
 import androidx.annotation.NonNull;
 
 import com.smart.sparcassignment.AddActivity;
-import com.smart.sparcassignment.Login2.Data;
-
-import static android.content.Context.MODE_PRIVATE;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
 
@@ -57,6 +54,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 Intent intent = new Intent(context, AddActivity.class);
                 intent.putExtra("MESSAGE","success");
                 context.startActivity(intent);
+//                ((Activity)context).finish();
             }
             else {
                 Log.e(SANJU, "registerUser: Error in Registering.");
@@ -85,6 +83,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
                 Intent intent = new Intent(context, AddActivity.class);
                 intent.putExtra("MESSAGE","success");
                 context.startActivity(intent);
+//                ((Activity)context).finish();
             }
             else {
                 Log.e(SANJU, "loginUser: User Not Found. Please Register user self.");
