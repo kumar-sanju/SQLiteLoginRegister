@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SPARC Assignment</string>
+    <string name="title_activity_todo_note">Todo List</string>
+</resources>
